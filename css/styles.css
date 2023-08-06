@@ -35,6 +35,20 @@ h1:hover {
     transition: transform 1s;
 }
 
+h3 {
+    text-transform: uppercase;
+    font-family: Helvetica, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 3%;
+    color: #1a1a1a;
+}
+
+h3:hover {
+    filter: grayscale(5%);
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+
 .white-text {
     color: #fff;
     padding-top: 10vh;
